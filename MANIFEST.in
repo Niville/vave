@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include vave *.css
+recursive-include vave *.csv
+recursive-include vave *.html
+recursive-include vave *.ico
+recursive-include vave *.js
+recursive-include vave *.json
+recursive-include vave *.md
+recursive-include vave *.png
+recursive-include vave *.py
+recursive-include vave *.svg
+recursive-include vave *.txt
+recursive-exclude vave *.pyc
